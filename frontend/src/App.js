@@ -6,7 +6,7 @@ import jsPDF from "jspdf";
 
 function App() {
   const APP_TITLE = "InterviewAI Pro - AI Interview Assistant";
-  const BASE_URL = "http://127.0.0.1:5000";
+  const BASE_URL = "https://ai-backend-it40.onrender.com";
 
   const [isLogin, setIsLogin] = useState(true);
   const [user, setUser] = useState({ name: "", email: "", password: "" });
